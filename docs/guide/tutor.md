@@ -42,6 +42,12 @@ mdEnhancePlugin({
 ### [语法高亮插件安装](https://v2.vuepress.vuejs.org/zh/reference/plugin/shiki.html)
 注意使用时需要输入正确的代码块类型, 如 c++ 的类型为 cpp, 否则将出错
 
+### 默认主题与插件配置
+对于默认主题与默认插件, 可直接使用以下语句引用, 不需要额外安装
+```ts
+import { defineUserConfig, defaultTheme } from 'vuepress'
+```
+
 ## GithubPage 部署
 ### 修改配置
 * 将配置文件中 base 属性设置为 "/{仓库名}/"
