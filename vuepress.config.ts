@@ -36,7 +36,11 @@ export default defineUserConfig({
         footer: "powered by <a href='https://theme-hope.vuejs.press/zh/'>vuepress-theme-hope</a>",
         // 其他设置
         // 仓库地址
-        repo: 'https://gitlab.com/foo/bar',
+        repo: 'https://github.com/tonyddg/vp_note_test',
+        // 主要 branch
+        docsBranch: 'master',
+        // 文档目录
+        docsDir: '/docs',
         //全屏按钮
         fullscreen: true,
         //打印按钮
