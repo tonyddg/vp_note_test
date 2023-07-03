@@ -39,10 +39,11 @@ Text consisting of jumbled fragments of Latin words, used as a placeholder in de
 Text consisting of <span id="test-span">jumbled</span> fragments of Latin words, used as a placeholder in designing the layout of a document.
 
 #### nav
-1. 直接引用标题 (对于标题中的空格使用 - 代替)
+1. 直接引用标题 (对于标题中的空格使用 - 代替, 其中大写字母需要改为小写, 以标签的形式允许跨文件连接)
     1. [to title 1](#title-1)
     1. [to 标题](#标题)
     1. [to links](#links)
+    1. [Github Page 部署](./tutor.md#githubpage-部署)
 1. 自定义 HTML (存在问题, 不推荐)
     1. [to div](#test-div)
     1. [to span](#test-span)
